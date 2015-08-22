@@ -109,7 +109,7 @@ public class Baidulocation extends CordovaPlugin {
 		option.setIsNeedLocationDescribe(true);
 		option.setIsNeedLocationPoiList(true);
 		option.setIgnoreKillProcess(false);
-		option.SetIgnoreCacheException(false)
+		option.SetIgnoreCacheException(false);
 		option.setEnableSimulateGps(false);
 		
 		locationClient.setLocOption(option);		
